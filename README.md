@@ -1,5 +1,5 @@
 # node-weather-app
-Simple node.js weather app
+*Simple node.js weather app*
 
 When running the app, please make sure that the following programs are installed:
 1. node.js: https://nodejs.org/en/
