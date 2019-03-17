@@ -1,4 +1,3 @@
-
 // request returns a callback function
 const request = require('request');
 
@@ -23,9 +22,6 @@ let city = argv.c || 'Sydney';
 // 2. metric units - temp
 // 3. API key
 let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
-
-// require request package
-//const request = require('request');
 
 // pass in target url & request returns callback function
 // arguments: err, response, and body.
