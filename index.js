@@ -39,7 +39,7 @@ request(url, function (err, response, body) {
 
     // find data in object using bracket notation
     // message string: show data in weather object
-    let message = `It's ${weather.main.temp} degrees in ${weather.name}!`;
+    let message = `${weather.name} temperature is ${weather.main.temp} degrees.`;
 
     // log content in response body
     console.log(message);
