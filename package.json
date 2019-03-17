@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Simple node.js weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helenpidoulas/node-weather-app.git"
+  },
+  "keywords": [
+    "node",
+    "weather",
+    "app"
+  ],
+  "author": "Helen Pidoulas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helenpidoulas/node-weather-app/issues"
+  },
+  "homepage": "https://github.com/helenpidoulas/node-weather-app#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
